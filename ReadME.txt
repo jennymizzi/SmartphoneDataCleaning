@@ -1,0 +1,7 @@
+
+The data files will download from the Machine Learning Repository, and download to a file named Data in your working directory. You do not need to create any folders, as this will happen automatically.
+In creating the final dataset (named w/ the variable final) the following steps were taken.
+The train data set and the test data set were merged into one large dataset
+Any column names with the phrase mean or std were kept to get variables with the mean data and standard deviation only. Note that there were some variables with the suffix meanFreq and mean. After looking at the data in both versions, I decided to keep both variables as the data was different and not duplicative.
+For each of the new subset variables, I computed the mean value of that variable per each of the 30 subjects and each of 6 activities.
+For the final dataset I decided to put the Feature Info (originally the column names) each as a row entry, and the “average by” factor as the column headers. This was done to remove the need of having descriptor headers for if the data was describing and activity or a subject. In this final dataset, if you’d like to know the average values for “tBodyAcc-mean()-X”, you would look across all the columns for that row. There will only ever be one entry for each Factor, making the data tidy.

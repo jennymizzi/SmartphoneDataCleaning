@@ -1,0 +1,42 @@
+
+DATA DICTIONARY
+The columns describe what factor the average of each variable from the original dataset is taken for. The column names are SubjectX and ActivityY where X is the values 1-30 corresponding to the 30 participants, and where Y is the activity names.
+The values in the Feature column is the name of the Feature data from the original dataset
+All units correspond to the unit used in the original dataset.
+ColumnNames
+[1] “Feature”
+[2] “Subject_1”
+[3] “Subject_2”
+[4] “Subject_3”
+[5] “Subject_4”
+[6] “Subject_5”
+[7] “Subject_6”
+[8] “Subject_7”
+[9] “Subject_8”
+[10] “Subject_9”
+[11] “Subject_10”
+[12] “Subject_11”
+[13] “Subject_12”
+[14] “Subject_13”
+[15] “Subject_14”
+[16] “Subject_15”
+[17] “Subject_16”
+[18] “Subject_17”
+[19] “Subject_18”
+[20] “Subject_19”
+[21] “Subject_20”
+[22] “Subject_21”
+[23] “Subject_22”
+[24] “Subject_23”
+[25] “Subject_24”
+[26] “Subject_25”
+[27] “Subject_26”
+[28] “Subject_27”
+[29] “Subject_28”
+[30] “Subject_29”
+[31] “Subject_30”
+[32] “Activity_WALKING”
+[33] “Activity_WALKING_UPSTAIRS”
+[34] “Activity_WALKING_DOWNSTAIRS” [35] “Activity_SITTING”
+[36] “Activity_STANDING”
+[37] “Activity_LAYING”
